@@ -201,9 +201,8 @@ h1 span {
     width: 1170px;
     margin-top: 97px;
     width: 1240px;
-    height: 158px;
+    justify-content: space-between;
     display: flex;
-    gap: 48px;
     margin-left: auto;
     margin-right: auto;
 }
