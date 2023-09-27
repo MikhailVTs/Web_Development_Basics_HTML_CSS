@@ -8,6 +8,7 @@ body {
 }
 
 .menu-and-logo {
+    width: 1170px;
     margin-top: 40px;
     display: flex;
     width: 1289px;
@@ -127,6 +128,7 @@ h1 span {
 }
 
 .intro {
+    width: 1170px;
     margin-top: 164px;
     display: flex;
     gap: 40.94px;
@@ -196,6 +198,7 @@ h1 span {
 }
 
 .logos {
+    width: 1170px;
     margin-top: 97px;
     width: 1240px;
     height: 158px;
