@@ -188,6 +188,7 @@ h1 span {
     font-weight: 400;
     line-height: normal;
     cursor: pointer;
+    border: none;
 }
 
 .intro-button-Watch-Video {
