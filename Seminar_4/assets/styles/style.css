@@ -34,7 +34,6 @@ body {
 
 .logo-header {
     width: 35px;
-    height: 40px;
     flex-shrink: 0;
 }
 
@@ -63,7 +62,6 @@ h1 span {
 
 .link-header {
     width: 533px;
-    height: 17px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -145,7 +143,6 @@ h1 span {
     margin-top: 14px;
     display: flex;
     justify-content: space-between;
-    /* height: 536px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -159,7 +156,6 @@ h1 span {
     font-weight: 400;
     line-height: normal;
     width: 522px;
-    height: 222px;
 }
 
 .intro-description {
@@ -171,7 +167,6 @@ h1 span {
     font-weight: 400;
     line-height: normal;
     width: 466px;
-    height: 48px;
 }
 
 .intro-button-wrapper {
@@ -181,8 +176,6 @@ h1 span {
 }
 
 .intro-button-Start-Now {
-    /* width: 140px; */
-    height: 50px;
     padding: 15px 36px 16px 35px;
     flex-shrink: 0;
     border-radius: 50px;
@@ -251,7 +244,6 @@ h1 span {
 .feature-description {
     margin-top: 17px;
     width: 310px;
-    height: 42px;
     flex-shrink: 0;
     color: #666;
     font-family: Gilroy-Regular;
@@ -259,7 +251,6 @@ h1 span {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    /* 22.5px */
 }
 
 .features-button-wrapper {
@@ -274,7 +265,6 @@ h1 span {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    /* 16.5px */
     background: none;
     border: none;
     cursor: pointer;
@@ -291,36 +281,30 @@ h1 span {
 
 .liua-logos {
     width: 160px;
-    height: 50px;
     flex-shrink: 0;
 }
 
 .Kanba-logos {
     width: 160px;
-    height: 50px;
     flex-shrink: 0;
 }
 
 .Amara-logos {
     width: 160px;
-    height: 50px;
     flex-shrink: 0;
 }
 
 .Aven-logos {
     width: 160px;
-    height: 50px;
     flex-shrink: 0;
 }
 
 .Hexlab-logos {
     width: 160px;
-    height: 50px;
     flex-shrink: 0;
 }
 
 .Kanba-logos-1 {
     width: 160px;
-    height: 50px;
     flex-shrink: 0;
 }
