@@ -1,0 +1,285 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+    background: #FFF;
+}
+
+.title {
+    margin: 0;
+}
+
+.menu-and-logo {
+    width: 1170px;
+    margin-top: 40px;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.logo-header {
+    width: 35px;
+    flex-shrink: 0;
+}
+
+.h1-header {
+    margin-right: 500px;
+}
+
+h1 {
+    color: #F25822;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+h1 span {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link-header {
+    width: 533px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.link-Home {
+    text-decoration: none;
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link-About-Us {
+    text-decoration: none;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link-Services {
+    text-decoration: none;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link-Features {
+    text-decoration: none;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link-Team {
+    text-decoration: none;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link-Blog {
+    text-decoration: none;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link-Contact {
+    text-decoration: none;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.intro {
+    width: 1170px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-title {
+    margin-top: 17px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 522px;
+}
+
+.intro-description {
+    margin-bottom: 17px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 466px;
+}
+
+.intro-button-wrapper {
+    margin-top: 37px;
+    gap: 40.94px;
+    display: flex;
+}
+
+.intro-button-Start-Now {
+    padding: 15px 36px 16px 35px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    border: none;
+}
+
+.intro-button-Watch-Video {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.features {
+    width: 1170px;
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features-item-title {
+    margin-top: 25px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feature-description {
+    margin-top: 17px;
+    width: 310px;
+    flex-shrink: 0;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.features-button-wrapper {
+    margin-top: 25px;
+    display: flex;
+}
+
+.features-button-Read-More {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.logos {
+    width: 1170px;
+    margin-top: 97px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.liua-logos {
+    flex-shrink: 0;
+}
+
+.Kanba-logos {
+    flex-shrink: 0;
+}
+
+.Amara-logos {
+    flex-shrink: 0;
+}
+
+.Aven-logos {
+    flex-shrink: 0;
+}
+
+.Hexlab-logos {
+    flex-shrink: 0;
+}
+
+.Kanba-logos-1 {
+    flex-shrink: 0;
+}
