@@ -203,7 +203,7 @@ h1 span {
     background: none;
 }
 
-.main-features {
+.features {
     width: 1170px;
     display: flex;
     margin-top: 55px;
@@ -212,27 +212,7 @@ h1 span {
     margin-right: auto;
 }
 
-.first-features-title {
-    margin-top: 25px;
-    color: #000;
-    font-family: Gilroy-Bold;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.second-features-title {
-    margin-top: 25px;
-    color: #000;
-    font-family: Gilroy-Bold;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.third-features-title {
+.features-item-title {
     margin-top: 25px;
     color: #000;
     font-family: Gilroy-Bold;
