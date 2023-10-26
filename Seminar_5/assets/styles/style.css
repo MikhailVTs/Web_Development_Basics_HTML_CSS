@@ -12,7 +12,7 @@
     font-weight: 700;
 }
 
-body {
+.body {
     margin: 0;
     background: #FFF;
 }
@@ -41,7 +41,7 @@ body {
     margin-right: 500px;
 }
 
-h1 {
+.h1 {
     color: #F25822;
     font-family: Gilroy-Bold;
     font-size: 24px;
@@ -51,7 +51,7 @@ h1 {
     margin: 0;
 }
 
-h1 span {
+.h1 span {
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 24px;
@@ -282,4 +282,92 @@ h1 span {
 
 .Kanba-logos-1 {
     flex-shrink: 0;
+}
+
+.secation{
+    width: 682px;
+    margin-top: 92px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secation__title{
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.secation__text{
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 19px;
+}
+
+.services {
+    width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    gap: 22px;
+    background: #FFF;
+    
+}
+
+.services__item-image{
+    width: 370px;
+    height: 270px;
+}
+
+.services__item-title{
+    color: #000;
+    
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.services__item-desc{
+    width: 310px;
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+
+.services__item-button{
+    margin-top: 39px;
+
+}
+
+.button_learn-more{
+    cursor: pointer;
+    border: none;
+    background: #FFFFFF;
+    margin-bottom: 50PX;
+
+
 }
