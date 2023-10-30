@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top_nav {
+  display: flex;
+  width: 1600px;
+  height: 75px;
+  background-color: #050202;
+}
+
+.Group_2 {
+  padding-top: 18px;
+  padding-left: 231px;
+}
+
+.forma_1 {
+  padding-top: 28.21px;
+  padding-left: 41px;
+}
+
+.Button_copy {
+  width: 158.996px;
+  height: 29px;
+  padding-top: 26px;
+  padding-left: 859px;
+}
+
+.Background {
+  display: flex;
+  width: 1600px;
+  height: 764px;
+  background-color: #f1e4e6;
+}
+
+.layer_57 {
+  width: 800.58px;
+  height: 764px;
+}
+
+.rectangle_16 {
+  width: 12px;
+  height: 92px;
+  padding-top: 289.9px;
+  padding-left: 63.42px;
+}
+
+.brand_of {
+  padding-top: 305px;
+  padding-left: 16px;
+}
